@@ -1,0 +1,104 @@
+/*generalité*/
+@font-face{
+    font-family:"cardo";
+    src: url("../font/cardo/cardo-bold.woff") format("woff"); 
+    font-weight:bold;
+    
+}
+@font-face{
+    font-family:"cardo";
+    src: url("../font/cardo/cardo-italic.woff") format("woff"); 
+    font-style:italic;
+}
+@font-face{
+    font-family:"cardo";
+    src: url("../font/cardo/cardo-regular.woff") format("woff"); 
+    
+}
+@font-face{
+    font-family:"SpecialElite";
+    src: url("../font/specialelite/SpecialElite.woff") format("woff")
+; 
+    
+}
+
+body{
+   width:420px;
+   margin-left:auto;
+   margin-right:auto;
+   font-size:18px;
+   line-height:1.5;
+   font-family:"cardo",sans-serif;
+  
+   
+}
+
+p:first-letter{
+   text-transform:uppercase;
+   font-size :1.5em;
+   padding:0.2em;
+   font-family:"SpecialElite",fantasy;
+   float : left;  
+       
+   
+}
+/*l'entete*/
+header{
+   border-bottom:1px solid black;
+}
+h1{
+   font: size 78px;;
+   line-height:2;
+   text-transform:uppercase;
+   font-family:"SpecialElite",fantasy;
+   
+}
+
+blockquote{
+   white-space:pre-line;
+   
+}
+.leonardo{
+   text-align:center;
+}
+/*main*/
+h2{
+   font: size 62px;;
+   line-height:1.5;
+   font-family:"SpecialElite",fantasy;
+}
+h3{
+   font: size 48px;;
+   line-height:1;
+   font-family:"SpecialElite",fantasy;
+   
+}
+h4{
+    font: size 32px;;
+    line-height:1;
+    font-family:"SpecialElite",fantasy;
+    
+ }
+ h5{
+    font: size 24px;;
+    line-height:1;
+    font-family:"SpecialElite",fantasy;
+    
+ }
+ h6{
+    font: size 16px;;
+    line-height:1;
+    font-family:"SpecialElite",fantasy;
+    
+ }
+h3::before {
+   content:" ❧";
+}
+.after::after{
+   content:"–";
+}
+   
+
+/*pied de page*/
+footer{
+   border-top:1px solid black;
